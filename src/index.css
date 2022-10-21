@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.quotes__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+.quotes__container .quote {
+  border-radius: 5px;
+  padding: 1rem;
+}
+.quotes__container .quote button {
+  all: unset;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.quotes__container .quote button:hover {
+  background-color: black;
+  color: white;
+}
+p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.quotes__container .quote .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.most_quote {
+  margin-top: 2rem;
+}
+.most_quote > div {
+  padding: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.most_quote p {
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
